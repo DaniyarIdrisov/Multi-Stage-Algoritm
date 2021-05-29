@@ -57,6 +57,7 @@ public class MultiStageAlgorithm {
         int basketsCount = scanner.nextInt();
         System.out.println("Enter maximum basket size");
         int maxBasketSize = scanner.nextInt();
+        System.out.println("---------------------");
         System.out.println("Generating baskets...");
         System.out.println("---------------------");
         List<String> items = new ArrayList<>();
